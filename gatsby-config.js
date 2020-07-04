@@ -13,12 +13,5 @@ module.exports = {
     data: ["item 1", "item 2"],
     person: { name: "peter", age: 32 },
   },
-  plugins: [
-    {
-      resolve: `gatsby-plugin-styled-components`,
-      options: {
-        // Add any options here
-      },
-    },
-  ],
+  plugins: [`gatsby-plugin-styled-components`],
 }
