@@ -23,9 +23,9 @@ const ComponentName = () => (
     query={getData}
     render={(data) => (
       <div>
-        <h2>StaticQuery</h2>
-        <h3>Long Form: Structured Data</h3>
-        <h4>Description: {data.site.info.description}</h4>
+        <h1>StaticQuery</h1>
+        <h2>Long Form: Structured Data</h2>
+        <h3>Description: {data.site.info.description}</h3>
       </div>
     )}
   ></StaticQuery>

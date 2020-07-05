@@ -34,13 +34,13 @@ export const Header = () => {
 
   return (
     <div>
-      <h2>useStaticQuery</h2>
-      <h3>Long Form: Structured Data</h3>
-      <h4>Title: {data.site.info.title}</h4>
-      <h4>Name : {data.site.info.person.name}</h4>
-      <h3>Short Form: Destructured Data</h3>
-      <h4>Title: {title}</h4>
-      <h4>Name: {name}</h4>
+      <h1>useStaticQuery</h1>
+      <h2>Long Form: Structured Data</h2>
+      <h3>Title: {data.site.info.title}</h3>
+      <h3>Name : {data.site.info.person.name}</h3>
+      <h2>Short Form: Destructured Data</h2>
+      <h3>Title: {title}</h3>
+      <h3>Name: {name}</h3>
     </div>
   )
 }
