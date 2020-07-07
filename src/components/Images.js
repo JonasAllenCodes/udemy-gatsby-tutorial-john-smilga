@@ -32,6 +32,7 @@ const Images = () => {
       <article className="single-image">
         <h3>Basic Image</h3>
         <img src={img} width="100%" alt="dog looking at fence" />
+        <h2>Content</h2>
       </article>
       <article className="single-image">
         <h3>Fixed Image/Blur</h3>
@@ -39,6 +40,7 @@ const Images = () => {
           fixed={data.fixed.childImageSharp.fixed}
           alt="skateboard stall"
         />
+        <h2>Content</h2>
       </article>
       <article className="single-image">
         <h3>Fluid Image/SVG</h3>
@@ -46,6 +48,7 @@ const Images = () => {
         <div className="small">
           <Image fluid={data.fluid.childImageSharp.fluid} alt="green eyeball" />
         </div>
+        <h2>Content</h2>
       </article>
     </section>
   )
