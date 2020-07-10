@@ -20,7 +20,7 @@ const getData = graphql`
 
 export const Header = () => {
   // Long Form: Structured Data
-  const data = useStaticQuery(getData)
+  // const data = useStaticQuery(getData)
 
   // Short Form: Destructured Data
   const {
@@ -35,9 +35,9 @@ export const Header = () => {
   return (
     <div>
       <h1>useStaticQuery</h1>
-      <h2>Long Form: Structured Data</h2>
+      {/** <h2>Long Form: Structured Data</h2>
       <h3>Title: {data.site.info.title}</h3>
-      <h3>Name : {data.site.info.person.name}</h3>
+      <h3>Name : {data.site.info.person.name}</h3> */}
       <h2>Short Form: Destructured Data</h2>
       <h3>Title: {title}</h3>
       <h3>Name: {name}</h3>
