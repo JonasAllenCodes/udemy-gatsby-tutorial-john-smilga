@@ -10,6 +10,8 @@ const ComponentName = ({ data }) => {
     allContentfulProduct: { nodes: products },
   } = data
 
+  console.log(data)
+
   return (
     <Layout>
       <section className={styles.page}>
