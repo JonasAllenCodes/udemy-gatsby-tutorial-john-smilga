@@ -17,7 +17,7 @@ const ComponentName = ({
     <Layout>
       <div style={{ textAlign: "center" }}>
         <Link to="/products">Back to products</Link>
-        <h1>Single Product</h1>
+        <h1>Single Product: {title}</h1>
       </div>
       <section className="single-product">
         <article>
